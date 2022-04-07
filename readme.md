@@ -42,7 +42,7 @@ python predict.py
 
 ### 效果
 ![1649315367(1).jpg](https://s2.loli.net/2022/04/07/QK2wMODjS8EnYzi.png)
-+ 使用医学实体关系抽取数据集，[阿里天池](https://tianchi.aliyun.com/dataset/dataDetail?dataId=95414#4)在线测试F1分数【59.82%】
++ 使用医学实体关系抽取数据集，[阿里天池](https://tianchi.aliyun.com/dataset/dataDetail?dataId=95414#4)在线测试F1分数【59.82%】，提交的测试结果在./result文件夹中
 + 之前复现的CasRel方法，在线F1分数为【60%】
 + 注意最新的 CBLUE 打榜，需要把生成的CMeIE_test.json后缀改为jsonl，再压缩提交
 ### TODO
