@@ -42,4 +42,6 @@ python predict.py
 
 ### 效果
 
-#TODO
++ 使用医学实体关系抽取数据集，阿里天池在线测试F1分数【58%】
++ 不如我之前复现的CasRel方法，在线F1分数为【60%】
+> 注意 CBLUE 打榜，需要把生成的CMeIE_test.json转为jsonl格式，再压缩提交
