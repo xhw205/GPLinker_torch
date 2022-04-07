@@ -30,7 +30,7 @@
 
 #### train
 
-```python
+```
 python main.py
 ```
 
@@ -44,6 +44,7 @@ python predict.py
 ![1649315367(1).jpg](https://s2.loli.net/2022/04/07/QK2wMODjS8EnYzi.png)
 + 使用医学实体关系抽取数据集，[阿里天池](https://tianchi.aliyun.com/dataset/dataDetail?dataId=95414#4)在线测试F1分数【59.82%】
 + 之前复现的CasRel方法，在线F1分数为【60%】
-> 注意最新的 CBLUE 打榜，需要把生成的CMeIE_test.json后缀改为jsonl，再压缩提交
-+ TODO: 训练过程未根据验证集的F1分数保存最优模型，直接用的最后一个epoch的权重，有需要的自行实现就好了
+  > 注意最新的 CBLUE 打榜，需要把生成的CMeIE_test.json后缀改为jsonl，再压缩提交
+### TODO
+训练过程未根据验证集的F1分数保存最优模型，直接用的最后一个epoch的权重，有需要的自行实现就好了
 
