@@ -69,7 +69,6 @@ class data_generator(Dataset):
     def encoder(self, item):
         text = item["text"]
         encoder_text = self.tokenizer(text, return_offsets_mapping=True, max_length=self.max_len, truncation=True)
-        # 将raw_text的下标 与 token的start和end下标对应
         input_ids = encoder_text["input_ids"]
         token_type_ids = encoder_text["token_type_ids"] #RoBERTa不需要NSP任务
         attention_mask = encoder_text["attention_mask"]
